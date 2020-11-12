@@ -7,7 +7,7 @@ setup(
     version=__version__,
     url='https:github.com/masterbpro/getip',
     packages=find_packages(),
-    python_requires='>3.6',
+    python_requires='>3.5',
     install_requires=open('requirements.txt').read().split(),
     entry_points={
         'console_scripts': [

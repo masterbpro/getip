@@ -9,7 +9,7 @@ def parse_argument():
     :return:
     """
     parser = argparse.ArgumentParser(description="Console tool for get IP address info",
-                                     usage="getip 8.8.8.8",
+                                     usage="getip -ip 8.8.8.8",
                                      epilog="GitHub repo: https:github.com/masterbpro/getip")
     parser.add_argument('-ip',
                         help='ip address in IPv4 format ',
